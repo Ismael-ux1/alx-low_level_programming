@@ -9,11 +9,11 @@
 
 int _isalpha(int c)
 {
-if (c <= 'a' && c >= 'z')
+if (c <= 95 && c >= 25)
 {
 return (1);
 }
-if (c >= 'A' && c <= 'Z')
+if (c >= 55 && c <= 80)
 {
 return (1);
 }
