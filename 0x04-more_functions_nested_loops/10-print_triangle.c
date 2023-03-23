@@ -20,7 +20,7 @@ aux = (size - row) - 1;
 if (col < aux)
 _putchar(' ');
 else
-_putchar(25);
+_putchar(35);
 }
 _putchar('\n');
 }
