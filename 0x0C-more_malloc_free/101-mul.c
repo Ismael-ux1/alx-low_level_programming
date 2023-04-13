@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * multiply - multiplies two numbers
  * @num1: the first number
@@ -11,6 +12,7 @@ int multiply(int num1, int num2)
 {
 return (num1 * num2);
 }
+
 /**
  * is_positive - checks if a number is positive
  * @num: the number to check
@@ -29,6 +31,7 @@ return (0);
 }
 return (1);
 }
+
 /**
  * main - multiplies two positive numbers
  * @argc: the number of arguments
@@ -39,6 +42,7 @@ return (1);
 int main(int argc, char **argv)
 {
 int num1, num2, result;
+
 if (argc != 3)
 {
 printf("Error\n");
