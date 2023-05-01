@@ -20,8 +20,7 @@ if (head > head->next)
 head = head->next;
 else
 {
-printf("-> [%p] %d\n",
-(void *)head->next, head->next->n);
+printf("-> [%p] %d\n", (void *)head->next, head->next->n);
 break;
 }
 }
