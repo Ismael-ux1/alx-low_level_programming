@@ -1,7 +1,4 @@
 #include "lists.h"
-#include <stddef.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * print_listint_safe - Prints a linked list of integers
