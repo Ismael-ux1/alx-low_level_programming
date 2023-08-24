@@ -9,13 +9,14 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $^
 
-$(OBJ): m.h
+%.o: %.c m.h
+	$(CC) $(CFLAGS) -c $<
 
 clean:
-	rm -f *~ *# $(NAME)
+	$(RM) *~ *# $(NAME)
 
 oclean:
-	rm -f $(OBJ)
+	$(RM) $(OBJ)
 
 fclean: clean oclean
 
