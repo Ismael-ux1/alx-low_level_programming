@@ -29,3 +29,36 @@ This repository contains projects for learning low-level programming concepts in
 - `0x17-doubly_linked_lists`
 - `0x18-dynamic_libraries`
 - `0x1A-hash_tables`
+- `0x1B. C - Sorting algorithms & Big O`
+- `0x1C. C - Makefiles`
+
+## Requirements
+
+Working with this project require you to have some tools installed:
+
+    GCC : GNU Compiler
+    Betty : C code checker
+
+
+## Usage
+
+- clone the repository
+  - git clone https://github.com/Ismael-ux1/alx-low_level_programming.git
+  - cd alx-low_level_programming
+
+- open your project
+
+  - cd [0x00. C - Hello, World](./0x00-hello_world)
+
+- Test test the files
+
+  - gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c 4-puts
+  - ./4-puts
+
+- Repeat with other files or projects
+
+Author
+- Ismael A.
+
+Aknowledgements
+-
