@@ -1,1 +1,1 @@
-A readme file the project C - Search Algorithms
+A readme file for the project C - Search Algorithms
