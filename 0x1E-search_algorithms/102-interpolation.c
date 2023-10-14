@@ -43,9 +43,8 @@ else
 low = pos + 1;
 }
 
-/* If the value is not in the range, print the last postion checked */
-if (value < array[low] || value > array[high])
-printf("value checked array[%lu] = [%d]\n", pos, array[pos]);
+/* Value not in the range */
+printf("Value checked array[%lu] is out of range\n", pos);
 
 /* Return -1 if the value is not found */
 return (-1);
